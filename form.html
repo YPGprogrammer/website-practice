@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -20,7 +21,7 @@
         </nav>
     </header>
     <main>
-        <h2>Fill this form to give some feedback!</h2>
+        <h2>Fill out this form to give some feedback!</h2>
         <fieldset>
             <legend>Your feedback</legend>
             <form>
@@ -29,15 +30,17 @@
                     <input type="text" id="firstName" name="firstName" required>
                     <label for="lastName">Last Name</label>
                     <input type="text" id="lastName" name="lastName" required>
-                    <label for="favBreed">Your Favorite Breed</label>
+                    <label for="favBreed">Your favorite dog breed</label>
                     <input type="text" id="favBreed" name="favBreed" required>
                 </div>
                 <div class="chooseForm">
                     <p>Doy you love Cavaler King Charles Spaniel?</p>
-                    <label for="yesRadio">Yes</label>
-                    <input type="radio" id="yesRadio" name="radioButton" checked>
-                    <label for="noRadio">No</label>
-                    <input type="radio" id="noRadi" name="radioButton">
+                    <div class="chooseLabels">
+                        <label for="yesRadio">Yes</label>
+                        <input type="radio" id="yesRadio" name="radioButton" checked>
+                        <label for="noRadio">No</label>
+                        <input type="radio" id="noRadi" name="radioButton">
+                    </div>
                 </div>
                 <div class="textareaForm">
                     <label for="comments">Write your comments or suggestions here:</label>

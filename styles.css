@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: #ADE1E5;
+    font-family: Fira Sans;
+}
+
+header {
+    background-color: #000501;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+main {
+    padding: 50px 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.photoDiv {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainPhoto {
+    width: 450px;
+    border: solid 1px black;
+    border-radius: 10px;
+    transition: 0.9s ease-in-out;
+}
+
+.mainPhoto:hover {
+    width: 480px;
+    cursor: cell;
+}
+
+fieldset {
+    border-color: black;
+}
+
+legend {
+    border: solid 2px black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.textForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.chooseForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chooseForm p {
+    padding: 0;
+    margin: 0;
+}
+
+.textareaForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.submitForm {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #000501;
+    color: white;
+    border: none;
+    height: 20px;
+}
+
+.submitForm:hover {
+    box-shadow: 5px 5px grey;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+figure img {
+    width: 400px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
