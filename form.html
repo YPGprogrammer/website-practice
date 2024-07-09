@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Billie Website</title>
+</head>
+<body>
+    <header>
+        <h1>Billie Website</h1>
+        <nav>
+            <a href="main.html">Home</a>
+            <a href="form.html">Form</a>
+            <a href="links.html">Links</a>
+            <a href="more.html">More images</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Fill this form to give some feedback!</h2>
+        <fieldset>
+            <legend>Your feedback</legend>
+            <form>
+                <div class="textForm">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                    <label for="favBreed">Your Favorite Breed</label>
+                    <input type="text" id="favBreed" name="favBreed" required>
+                </div>
+                <div class="chooseForm">
+                    <p>Doy you love Cavaler King Charles Spaniel?</p>
+                    <label for="yesRadio">Yes</label>
+                    <input type="radio" id="yesRadio" name="radioButton" checked>
+                    <label for="noRadio">No</label>
+                    <input type="radio" id="noRadi" name="radioButton">
+                </div>
+                <div class="textareaForm">
+                    <label for="comments">Write your comments or suggestions here:</label>
+                    <textarea id="comments" rows="2" cols="15"></textarea>
+                </div>
+                <input type="submit" class="submitForm">
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
